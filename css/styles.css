@@ -402,7 +402,9 @@ ul {
 }
 
 .team-social-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   width: 44px;
   height: 44px;
@@ -417,10 +419,6 @@ ul {
 .team-social-link:focus .team-social-icon {
   fill: #fff;
   background-color: var(--accent-color);
-}
-
-.team-social-icon {
-  margin: 12px 0px 0px 12px;
 }
 
 /* ---------------КЛИЕНТЫ---------------- */
@@ -469,6 +467,7 @@ ul {
   border: 1px solid #afb1b8;
   color: #afb1b8;
   background-color: #fff;
+  border-radius: 4px;
 }
 
 .client-link:hover,
